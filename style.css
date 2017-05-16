@@ -1,0 +1,94 @@
+.base{
+	background-color: transparent;
+	display: block;
+	text-align: center;
+}
+.topbar {
+	//position: fixed;
+	height: 10vh;
+	width: 100%;
+	background-color: transparent;
+	margin: 0 0 0 0;
+	font-size: 100%;
+}
+.topbar li {
+	list-style: none;
+	float: left;
+	font-size: 25px;
+	width: 25%;
+}
+.topbar li a {
+	background-color: black;
+	text-align: center;
+	display: block;
+	height: 35px;
+	padding: 0 0;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	border-right: 3px solid gray;
+	-webkit-transition: font-size 0.15s;
+	transition: font-size 0.15s;
+}
+.topbar li a:hover {
+	font-size: 115%; 
+}
+#active{
+	background-color: orange;
+	//text-align: center;
+	//display: block;
+	//height: 35px;
+	//padding: 0 0;
+	//text-decoration: none;
+	//font-weight: bold;
+	color: black;
+	border-right: 3px solid black;
+	-webkit-transition: font-size 0.15s;
+	transition: font-size 0.15s;
+}
+#active:hover{
+	font-size: 115%;
+}
+.central {
+	background-color: orange;
+	display: inline-block;
+	width: 90%;
+	border: 10px solid black;
+	border-radius: 10px;
+}
+#left{
+	position: relative;
+	//display: block;
+	float: left;
+	width: 40%;
+	margin: 2.5%;
+	padding: 2.5%;
+	vertical-align: center;
+	text-align: left;
+}
+#right{
+	position: relative;
+	//display: block;
+	float: right;
+	margin: 2.5%;
+	padding: 2.5%;
+	width: 40%;
+}
+
+p{
+	font-size: 1.5rem;
+
+}
+
+#profile{
+	max-width: 90%;
+	max-height: 90%;
+}
+.icon{
+	height: 30px;
+	width: 30px;
+}
+
+
+
+
